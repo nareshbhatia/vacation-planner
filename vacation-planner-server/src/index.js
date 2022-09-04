@@ -32,7 +32,7 @@ app.post('/step-response', VacationAdapter.processAnswers);
 // -----------------------------------------------------------------------------
 // Start the HTTP Server using the Express App
 // -----------------------------------------------------------------------------
-const port = process.env.SERVER_PORT;
+const port = process.env.SERVER_PORT || 8080;
 const server = createServer(app);
 server.listen(port, () => console.log('Listening on port ' + port));
 

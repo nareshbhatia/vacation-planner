@@ -15,3 +15,11 @@ The client is relatively dumb. It does whatever the back-end asks it to do. It c
 1. Home page: Allows user to select a vacation type.
 2. Questions page: Presents questions sent by the back-end and returns the user's answers.
 3. Result page: Presents the vacation suggestion made by the back-end.
+
+![Home Page](assets/home-page.png)
+
+
+![Questions Page](assets/questions-page.png)
+
+
+![Result Page](assets/result-page.png)
